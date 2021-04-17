@@ -325,10 +325,16 @@ const donasi = (name) => {
 	return `       
 ╭─────「 *DONASI SEIKHLASNYA* 」
 ┴
-│√ *PULSA: 089613469459*
-│√ *OVO : 089613469459*
+│√ *PULSA: 082169369877*
+│√ *INSTAGRAM : Chat @aardnnn_*
 ┬
 ╰──────「 *BY ${name}* 」
+
+THANKS TO
+▶️ *ALLAH *
+▶️ *Legio17*
+▶️ *Catalysmic Class*
+▶️ *Nabila ><*
 
 Untuk Kelangsungan Hidup Bot Karna Kuota Mahal:'
 `
