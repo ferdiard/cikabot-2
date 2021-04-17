@@ -10,7 +10,7 @@ const help = (prefix, instagram, yt, name, pushname2, user, limitt, uptime, jam,
 ┣⊱  \`\`\`LIMIT:\`\`\` *${limitt} perhari*
 ┣⊱  \`\`\`AKTIF:\`\`\` ${kyun(uptime)}
 ┣⊱  \`\`\`JAM:\`\`\` *${jam} WIB*
-┣⊱  \`\`\`TANGGAL:\`\`\` *${tanggal}*
+┣⊱  \`\`\`TANGGAL:\`\`\` *${tanggal}
 ┣⊱  \`\`\`VERSION:\`\`\` *4.0.4*
 ┣⊱  \`\`\`USER TERDAFTAR:\`\`\` *${user.length} User*
 ┣⊱  ❌ *SPAM*
