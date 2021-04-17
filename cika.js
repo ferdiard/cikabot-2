@@ -67,15 +67,15 @@ const { wait, simih, getBuffer, h2k, generateMessageID, getGroupAdmins, getRando
 
 const vcard = 'BEGIN:VCARD\n'
             + 'VERSION:3.0\n'
-            + 'FN:AgusAliansyah\n'
-            + 'ORG:Owner CIKABOT;\n'
-            + 'TEL;type=CELL;type=VOICE;waid=62895603272884:+62 895-6032-72884\n'
+            + 'FN:FerdiArdian\n'
+            + 'ORG:Owner NA Bot;\n'
+            + 'TEL;type=CELL;type=VOICE;waid=6282169369877:+62 821-6936-9877\n'
             + 'END:VCARD'
 
 prefix = "!"
-name = "~ CIKA| B O T"
-rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN CIKABOT😁"
-rmenu = "HAI TEMEN CIKABOT👋 JANGAN LUPA DONASI YAA:)"
+name = "NA Bot"
+rdaftar = "TERIMA KASIH TELAH DAFTAR MENJADI TEMEN NABOT😁"
+rmenu = "HAI TEMEN NABOT👋 JANGAN LUPA DONASI YAA:)"
 limitt = 10
 ban = []
 
@@ -159,7 +159,7 @@ async function starts() {
 			const content = JSON.stringify(mek.message)
 			const from = mek.key.remoteJid
 			const type = Object.keys(mek.message)[0]
-			const FarhanGans = ["081368646011@s.whatsapp.net"] // ubah aja gapapa
+			const FerdiGans = ["6282169369877@s.whatsapp.net"] // ubah aja gapapa
 			const farhan = mek.message.conversation
 			const insom = from.endsWith('@g.us')
 			const nameReq = insom ? mek.participant : mek.key.remoteJid
@@ -200,7 +200,7 @@ async function starts() {
 			}
 
 			const botNumber = client.user.jid
-			const ownerNumber = ["6281368646011@s.whatsapp.net"] // owner number ubah aja
+			const ownerNumber = ["6282169369877@s.whatsapp.net"] // owner number ubah aja
 			const isGroup = from.endsWith('@g.us')
 			const sender = isGroup ? mek.participant : mek.key.remoteJid
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
